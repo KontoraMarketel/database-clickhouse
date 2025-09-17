@@ -1,1 +1,0 @@
-DROP TABLE stg_ads_info;
