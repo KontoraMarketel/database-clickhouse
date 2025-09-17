@@ -3,7 +3,7 @@ CREATE TABLE IF NOT EXISTS stg_ads_info (
     create_time DateTime('UTC'),
     change_time DateTime('UTC'),
     start_time DateTime('UTC'),
-    bid_type UInt32,
+    bid_type UInt32 DEFAULT NULL,
     search_pluse_state Bool,
     united_params_catalog_cpm UInt32 DEFAULT NULL,
     united_params_search_cpm UInt32 DEFAULT NULL,
