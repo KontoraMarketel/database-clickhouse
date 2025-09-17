@@ -13,7 +13,7 @@ CREATE TABLE IF NOT EXISTS stg_ads_info (
     united_params_menus_id UInt32 DEFAULT NULL,
     united_params_menus_name String DEFAULT NULL,
     united_params_nms UInt32 DEFAULT NULL,
-    auction_multibids_nms UInt32 DEFAULT NULL,
+    auction_multibids_nm UInt32 DEFAULT NULL,
     auction_multibids_bid UInt32 DEFAULT NULL,
     auto_params_cpm UInt32 DEFAULT NULL,
     auto_params_subject_name String DEFAULT NULL,
