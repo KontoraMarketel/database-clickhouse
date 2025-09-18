@@ -18,9 +18,7 @@ CREATE TABLE IF NOT EXISTS stg_cards (
     dimensions_height UInt32,
     dimensions_weight_brutto UInt32,
     dimensions_is_valid Boolean,
-    characteristics_id UInt32,
-    characteristics_name String DEFAULT NULL,
-    characteristics_value String DEFAULT NULL,
+    characteristics String DEFAULT NULL,
     sizes_chrt_id UInt32,
     sizes_tech_size String DEFAULT NULL,
     sizes_wb_size String DEFAULT NULL,
@@ -33,4 +31,4 @@ CREATE TABLE IF NOT EXISTS stg_cards (
     task_id UUID,
     ts DateTime('UTC')
 ) ENGINE = MergeTree()
-ORDER BY (nm_id, title, nm_uuid, imt_id);
+ORDER BY (nm_id, nm_uuid, imt_id);
