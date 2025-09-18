@@ -9,7 +9,7 @@ CREATE TABLE IF NOT EXISTS stg_cards (
     title String,
     description String,
     need_kiz Bool,
-    photos String,
+    photos String DEFAULT NULL,
     video String,
     wholesale_enabled Bool DEFAULT NULL,
     wholesale_quantum UInt64 DEFAULT NULL,
