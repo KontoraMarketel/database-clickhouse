@@ -10,8 +10,6 @@ CREATE TABLE IF NOT EXISTS stg_commissions (
     subject_id UInt32,
     subject_name String,
     task_id UUID,
-    -- идентификатор инжеста
     ts DateTime,
-    -- время вставки (для TTL, отладки и инкрементальности)
 ) ENGINE = MergeTree()
 ORDER BY (task_id, subject_id, ts);
