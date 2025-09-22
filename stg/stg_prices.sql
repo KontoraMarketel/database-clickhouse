@@ -16,5 +16,3 @@ CREATE TABLE IF NOT EXISTS default.stg_prices (
 ORDER BY (nm_id, vendor_code);
 
 
-
--- хуй
