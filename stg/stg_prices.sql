@@ -22,4 +22,3 @@ ORDER BY (nm_id, vendor_code);
 
 
 
-sadfsadf
