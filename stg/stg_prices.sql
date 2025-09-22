@@ -14,3 +14,7 @@ CREATE TABLE IF NOT EXISTS default.stg_prices (
     ts DateTime('UTC')
 ) ENGINE = MergeTree
 ORDER BY (nm_id, vendor_code);
+
+
+
+-- хуй
