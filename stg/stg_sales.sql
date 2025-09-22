@@ -16,3 +16,5 @@ CREATE TABLE IF NOT EXISTS default.stg_sales (
     ts DateTime('UTC')
 ) ENGINE = MergeTree()
 ORDER BY (nm_id);
+
+хуй
